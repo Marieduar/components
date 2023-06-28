@@ -1,0 +1,33 @@
+.accordion{
+    background-color: rgb(165, 165, 165);
+    cursor: pointer;
+    padding: 18px;
+    width:250px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.advice,  .accordion:hover{
+    background-color: gray;
+}
+
+.panel{
+    padding: 0,18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.classebutton{
+    background-color: burlywood;
+    margin-top: 8px;
+    width: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.botão{
+    height: 150px;
+}
